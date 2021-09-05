@@ -37,7 +37,9 @@ section {
 /*===== HEADER STYLING - MOBILE === */
 
 header {
-  background-color: #3ebfff;
+  background-image: url("../images/mobile/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -45,16 +47,18 @@ header {
   padding: 1.5rem 0;
 }
 
-header .content-container {
+.upper-header {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-/*==== HERO SECTION - MOBILE ===*/
-
-.hero {
-  background-image: url("../images/mobile/image-header.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.lower-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -65,4 +69,15 @@ h1 {
   font-size: 2.75rem;
   width: 90%;
   letter-spacing: .25rem;
+  margin-top: 5rem;
+}
+
+.arrow {
+  background-image: url("../images/icon-arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 11rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
