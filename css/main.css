@@ -237,3 +237,16 @@ figure footer {
 }
 
 /*=== IMAGE SHOWCASE SECTION - MOBILE ===*/
+
+.image-showcase {
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+.desktop-size {
+  display: none;
+}
+
+.mobile-size {
+  width: 50%;
+}
