@@ -152,3 +152,88 @@ a span {
   width: 100%;
   padding: 10rem 0;
 }
+
+.skill h3 {
+  font-family: "Fraunces", serif;
+  font-size: 1.75rem;
+  padding-top: 23rem;
+  color: #25564B;
+}
+
+.skill .content-container {
+  width: 90%;
+}
+
+.skill p {
+  font-size: 1rem;
+  margin-bottom: 3.5rem;
+  color: #25564B;
+}
+
+.graphic-design {
+  background-image: url("../images/mobile/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photography {
+  background-image: url("../images/mobile/image-photography.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*==== TESTIMONIALS SECTION - MOBILE =====*/
+
+.testimonials .content-container {
+  width: 88%;
+}
+
+h4 {
+  font-family: "Fraunces", serif;
+  color: #A7ABAE;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  margin: 4rem 0;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+blockquote {
+  margin: 2.25rem 0;
+  text-align: center;
+  line-height: 2rem;
+  color: #5A636C;
+}
+
+figure img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+figure footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.role {
+  font-style: normal;
+  font-size: .9rem;
+  margin: .75rem 0 5rem;
+  color: #A7ABAE;
+}
+
+/*=== IMAGE SHOWCASE SECTION - MOBILE ===*/
