@@ -120,6 +120,7 @@ a {
   width: 48%;
   position: relative;
   display: flex;
+  justify-content: center;
   margin: 1rem 0 3rem 0;
 
 }
@@ -269,16 +270,28 @@ figure footer {
 
 .contact nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
-.contact nav ul {
+.contact ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
 }
 
-.contact nav ul li {
-  padding: 0;
+.contact nav a {
+  font-family: "Barlow", sans-serif;
+  text-transform: capitalize;
+  color: #458C7E;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
