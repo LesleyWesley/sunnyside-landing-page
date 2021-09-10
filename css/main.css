@@ -250,3 +250,35 @@ figure footer {
 .mobile-size {
   width: 50%;
 }
+
+/*===== FOOTER - MOBILE ===*/
+
+.contact  {
+  background-color: #90d4c5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+
+.contact img {
+  width: 60%;
+}
+
+.contact nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact nav ul li {
+  padding: 0;
+}
