@@ -227,7 +227,8 @@ a span {
 }
 
 .highlight {
-  background-color:	rgba(250, 212, 0, .5);
+  background-color:	rgb(250, 212, 0);
+  opacity: .5;
   height: .75rem;
   width: 100%;
   border-radius: 1rem;
@@ -400,4 +401,18 @@ figure footer {
   font-size: 1.25rem;
   margin-bottom: 6rem;
   filter: invert(27%) sepia(5%) saturate(4598%) hue-rotate(116deg) brightness(50%) contrast(80%);
+}
+
+/*=== ACTIVE STATES ====*/
+
+.learn-more-square a:hover  .highlight {
+  opacity: 1;
+}
+
+.contact nav a:hover{
+  color: #FFF;
+}
+
+.social-icons a:hover {
+  filter: none;
 }
