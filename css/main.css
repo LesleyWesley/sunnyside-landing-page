@@ -50,7 +50,7 @@ header {
 
 .upper-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
@@ -187,6 +187,10 @@ h1 {
   padding: 10rem 0;
 }
 
+.egg img {
+  display: none;
+}
+
 .learn-more-square {
   padding: 3rem 0;
 }
@@ -301,6 +305,7 @@ figure {
   align-items: center;
   flex-direction: column;
   margin: 0;
+  max-width: 30rem;
 }
 
 blockquote {
@@ -364,6 +369,7 @@ figure footer {
 
 .contact img {
   width: 60%;
+  max-width: 20rem;
   filter: invert(27%) sepia(5%) saturate(4598%) hue-rotate(116deg) brightness(45%) contrast(80%);
 }
 
@@ -372,6 +378,7 @@ figure footer {
   justify-content: center;
   align-items: center;
   width: 90%;
+  max-width: 30rem;
 }
 
 .contact ul {
@@ -393,6 +400,7 @@ figure footer {
   justify-content: space-between;
   align-items: center;
   width: 60%;
+  max-width: 15rem;
 }
 
 .social-icons a {
@@ -416,3 +424,106 @@ figure footer {
 .social-icons a:hover {
   filter: none;
 }
+
+/*===================================================*/
+
+@media (min-width: 700px) {
+
+  header {
+    background-image: url("../images/desktop/image-header.jpg");
+  }
+
+  .upper-header {
+    width: 25%;
+  }
+
+  .top-nav {
+    width: 70%;
+    position: relative;
+  }
+
+  .toggler,
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    transform: scale(1);
+    display: flex;
+    background-color: inherit;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .menu:after{
+    display: none;
+  }
+
+  .menu ul {
+    flex-direction: row;
+  }
+
+  .grid {
+    flex-direction: row;
+    flex-flow: row wrap;
+  }
+
+  .learn-more-square,
+  .egg,
+  .cup,
+  .skill {
+    width: 50%;
+  }
+
+  .learn-more-square {
+    padding: 0;
+  }
+
+  .transform-square {
+    order: -1;
+  }
+
+  .skill h3 {
+    padding-top: 20rem;
+  }
+
+  .egg {
+    background-image: url("../images/desktop/image-transform.jpg");
+    padding: 12rem 0;
+  }
+
+  .cup {
+    background-image: url("../images/desktop/image-stand-out.jpg");
+    padding: 12rem 0;
+  }
+
+  .graphic-design {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+
+  .photography {
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
+
+  .mobile-size {
+    display: none;
+  }
+
+  .desktop-size {
+    width: 25%;
+    display: flex;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    text-align: left;
+  }
+
+  .learn-more-square p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .learn-more-square a {
+    font-size: 1rem;
+  }
