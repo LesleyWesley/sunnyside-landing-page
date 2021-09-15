@@ -431,14 +431,20 @@ figure footer {
 
   header {
     background-image: url("../images/desktop/image-header.jpg");
+    padding-top: 0;
+  }
+
+  header .content-container {
+    width: 100%;
   }
 
   .upper-header {
     width: 25%;
+    justify-content: flex-start;
   }
 
   .top-nav {
-    width: 70%;
+    width: 68%;
     position: relative;
   }
 
@@ -452,7 +458,11 @@ figure footer {
     display: flex;
     background-color: inherit;
     position: relative;
-    justify-content: space-between;
+    justify-content: flex-end;
+    top: inherit;
+    right: inherit;
+    margin-right: 0;
+    width: 100%;
   }
 
   .menu:after{
@@ -461,6 +471,25 @@ figure footer {
 
   .menu ul {
     flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .menu li a {
+    font-size: .75rem;
+    color: #FFF;
+  }
+
+  .menu-item-contact {
+      padding: .6rem 1rem;
+      margin: 0;
+      background-color: #FFF;
+  }
+
+  .menu .menu-item-contact  a {
+    font-size: .6rem;
+    margin: 0;
+    color: #000;
   }
 
   .grid {
