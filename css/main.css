@@ -217,6 +217,7 @@ a {
   font-family: "Fraunces", serif;
   font-weight: 900;
   width: 48%;
+  max-width: 9rem;
   position: relative;
   display: flex;
   margin: 1rem 0 3rem 0;
@@ -238,7 +239,7 @@ a span {
   border-radius: 1rem;
   position: absolute;
   z-index: 1;
-  top: .9rem;
+  top: .8rem;
 }
 
 .stand-out {
@@ -431,7 +432,7 @@ figure footer {
 
   header {
     background-image: url("../images/desktop/image-header.jpg");
-    padding-top: 0;
+    padding-top: 1rem;
   }
 
   header .content-container {
@@ -473,6 +474,7 @@ figure footer {
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
+    max-width: 20rem;
   }
 
   .menu li a {
@@ -481,7 +483,7 @@ figure footer {
   }
 
   .menu-item-contact {
-      padding: .6rem 1rem;
+      padding: .75rem 1rem;
       margin: 0;
       background-color: #FFF;
   }
@@ -555,4 +557,35 @@ figure footer {
 
   .learn-more-square a {
     font-size: 1rem;
+  }
+}
+
+  /*==============================================*/
+
+  @media (min-width: 1000px) {
+    h1 {
+      margin-bottom: 3rem;
+      font-size: 3rem;
+    }
+
+    .arrow {
+      width: 1.75rem;
+      height: 7rem;
+      margin-bottom: 12rem;
+    }
+
+    .learn-more-square .content-container {
+      width: 70%;
+      padding: 4rem 0;
+      justify-content: flex-start;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .egg,
+    .cup {
+      padding: 16rem 0;
+    }
   }
