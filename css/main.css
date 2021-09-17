@@ -588,4 +588,12 @@ figure footer {
     .cup {
       padding: 16rem 0;
     }
+
+    .testimonials .content-container {
+      justify-content: space-between;
+    }
+
+    figure {
+      width: 30%;
+    }
   }
