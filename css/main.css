@@ -260,6 +260,8 @@ a span {
   font-size: 1.75rem;
   padding-top: 23rem;
   color: #25564B;
+  width: 100%;
+  text-align: center;
 }
 
 .skill .content-container {
@@ -318,6 +320,7 @@ blockquote {
 
 figure img {
   width: 25%;
+  max-width: 4rem;
   border-radius: 50%;
 }
 
@@ -576,17 +579,35 @@ figure footer {
 
     .learn-more-square .content-container {
       width: 70%;
+      max-width: 25rem;
       padding: 4rem 0;
       justify-content: flex-start;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
+
 
     .egg,
     .cup {
       padding: 16rem 0;
+    }
+
+    .skill p {
+      max-width: 24rem;
+      font-size: 1.125rem;
+    }
+
+    .skill h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      width: 100%;
+      text-align: center;
+      font-size: 1.25rem;
+      margin-top: 8rem;
     }
 
     .testimonials .content-container {
@@ -596,4 +617,25 @@ figure footer {
     figure {
       width: 30%;
     }
+
+    blockquote {
+      font-size: .9rem;
+      margin: 3.25rem 0;
+    }
+
+    .role {
+      margin-bottom: 8rem;
+    }
+
+
+  }
+
+  /*==================================*/
+
+  @media (min-width: 1400px) {
+    blockquote {
+      font-size: 1.15rem;
+    }
+
+
   }
