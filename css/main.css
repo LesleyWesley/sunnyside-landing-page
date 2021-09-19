@@ -272,6 +272,7 @@ a span {
   font-size: 1rem;
   margin-bottom: 3.5rem;
   color: #25564B;
+  max-width: 16rem;
 }
 
 .graphic-design {
@@ -300,6 +301,8 @@ h4 {
   text-transform: uppercase;
   letter-spacing: .125rem;
   margin: 4rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 figure {
@@ -525,6 +528,7 @@ figure footer {
     padding-top: 20rem;
   }
 
+
   .egg {
     background-image: url("../images/desktop/image-transform.jpg");
     padding: 12rem 0;
@@ -565,6 +569,8 @@ figure footer {
   .learn-more-square a {
     font-size: 1rem;
   }
+
+
 
   .contact .content-container {
     width: 30%;
